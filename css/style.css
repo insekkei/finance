@@ -1,0 +1,86 @@
+html{
+height:100%;position:absolute;width:100%; background:#bcd5de url(../img/bgmask.png) repeat;}
+body{font-family:'Microsoft Yahei',STHeiti,sans-Serif;background:#fff;font-size:14px;
+/*background:#fff url(http://s.cn.bing.net/az/hprichbg/rb/PantanalBrazil_ZH-CN13328605535_1920x1080.jpg) no-repeat;
+background-size:cover;*/
+  background: url(../img/cloud.png) no-repeat fixed 0 30px;
+background-size: 100% auto;}
+.wrapper{width:960px;margin:20px auto;padding:0;background: #fff;-webkit-box-shadow: 0 0 3px #bcd5de;}
+header{position:relative;margin-top: 40px;}
+header ul{background:#A5CC81;}
+header ul li{float:left;}
+header ul li a{display:inline-block;padding:30px 20px 10px;/* line-height: 30px; */color:#fff;}
+header ul li a:before{content:"";display:inline-block;width:33px;height:32px;background-image:url(../img/icons.png);
+background-size: 320px 32px;position:relative;top:-20px;left:30px;}
+header ul li:first-child a:before{background-position:-101px 0;}
+header ul li:nth-child(2) a:before{background-position:-32px 0;}
+header ul li:nth-child(3) a:before{background-position:-65px 0;}
+header ul li:nth-child(4) a:before{background-position:1px 0;}
+.sear-form{position:absolute;right:20px;top: 30px;}
+.sear-form input[type="text"]{border:0;outline:0;padding:5px 14px;width:200px;background:rgba(255,255,255,.9);}
+.sear-form input[type="submit"]{cursor:pointer;position:absolute;top:2px;right:3px;width:20px;height:20px;background:url(../img/search.png) no-repeat;background-size:auto 20px;border:0;}
+.left,.right{float:left;}
+.left{width:240px;border-right:1px solid #ddd;margin:1em 0;padding:20px;line-height:2em;}
+.right{width:680px;padding:60px;line-height:2em;}
+.left img{width:142px;height:142px;}
+.edit-info{text-align:center;background:#A5CC81;color:#fff;display:block;padding:10px;margin-top:20px;}
+legend{margin-bottom:1em;}
+.login-form{width:340px;margin:40px auto;}
+.login-form .input input,.login-form .actions input{width:340px;height:40px;padding:0 14px;margin:4px 0;border:1px solid #333;}
+.actions{margin-top:1em;}
+.login-form .actions input{color:#fff}
+.login-form input[type="submit"]{margin-right:10px;background:#A5CC81;}
+input[type=checkbox]{
+	-webkit-appearance: none;
+	appearance: none;
+	width: 16px;
+	height: 16px;
+	margin: 0 3px 0 0;
+	cursor: pointer;
+	vertical-align: bottom;
+	background: #fff url(../img/unchecked.png) no-repeat;
+	background-size:16px auto;
+	position: relative;
+	top:-2px;
+}
+.jiaofei{width: 700px;margin:0 auto;}
+h1{font-size:20px;margin:1em 0;border-bottom: 2px solid #333;}
+select{display:inline-block;height:30px;border:1px solid #ddd;background:#f4f4f4;}
+input[type=checkbox]:checked::after {
+	content: "";
+	display: inline-block;
+	width:10px;
+	height:10px;
+	position:absolute;
+	background:#333;
+	left:3px;
+	top:3px;
+}
+.jiaofei-list.cx li span{
+	text-align:center;
+}
+.jiaofei-list{border:1px solid #666;margin:2em 0;}
+.jiaofei-list input[type="checkbox"]{margin:0 5px 0 0;vertical-align: middle;}
+.jiaofei-list li{line-height:2em;border-left: 30px solid transparent;border-bottom:1px solid #aaa;margin:0;padding:20px 0;/* background: #f9f9f9; */position:relative;}
+.jiaofei-list li:last-child{border-bottom:0;}
+.jiaofei-list span{display:inline-block;width:24%;color: #666;opacity: .7;}
+.jiaofei-list li span:first-child{}
+.jiaofei-list li span select{width:100%;}
+.jiaofei-list li span.jine{text-align:right;width:30%}
+.jiaofei-list li .cb-input{width:15%;}
+.jiaofei-list li strong span:before{content:"";display:inline-block;width:32px;height:32px;position:relative;top:-2px;margin-right:10px;vertical-align: bottom;}
+.zhusu:before{background:url(../img/zhusu.gif) no-repeat;
+background-size:32px auto;}
+.xiaofu:before{background:url(../img/xiaofu.png) no-repeat;
+background-size:32px auto;}
+.jiaocai:before{background:url(../img/jiaocai.jpg) no-repeat;
+background-size:32px auto;}
+.tijian:before{background:url(../img/tijian.png) no-repeat;
+background-size:32px auto;}
+.heji-jine{color:#333;font-size:18px;vertical-align: middle;}
+.chaxun-form input{margin-right:4px;padding: 3px;}
+#chaxun{background: #A6CB84;color:#fff;padding:5px 15px;border:0;}
+#go{float:right;display:inline-block;padding:6px 20px;background: #A5CC81;color:#fff;}
+.pagination{text-align:center;margin:20px 0}
+.pagination a{display:inline-block;margin:3px;width:22px;height:22px;line-height:22px;text-align:center;border:1px solid #333;color:#333;}
+footer{font-size:12px;color: #A5CC81;text-align:center;/* border-top:1px solid #ccc; */padding:1em;margin-top:2em;background: #333;}
